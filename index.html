@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style/style.css">
+  <script src="js/jquery-1.12.0.min.js"></script>
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <h2 class="text-center headline">Wikipedia Search</h2>
+      <div id="custom-search-input">
+        <div class="input-group col-md-8 col-md-offset-2">
+          <input type="text" class="search-query form-control" placeholder="Search" id="searchTerm" />
+          <span class="input-group-btn">
+                        <button class="btn btn-primary" type="submit" id="search">
+                            <span class=" glyphicon glyphicon-search"></span>
+          </button>
+          </span>
+          <span class="input-group-btn">
+                        <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
+                          <button class="btn btn-success" type="button" id="random">
+                            <span class=" glyphicon glyphicon-star-empty"></span>
+          </button>
+          </a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container articles " id="output">
+    <div class="row" id="row1">
+      <div class="well col-md-8 col-md-offset-2">
+        <button type="button" class="btn btn-sm" name="button" data-toggle="collapse" data-target="#info1"><h3 id="title-1"></h3></button>
+        <p class="collapse" id="info1"></p>
+      </div>
+    </div>
+    <div class="row" id="row2">
+      <div class="well col-md-8 col-md-offset-2">
+        <button type="button" class="btn btn-sm" name="button" data-toggle="collapse" data-target="#info2"><h3 id="title-2"></h3></button>
+        <p class="collapse" id="info2"></p>
+      </div>
+    </div>
+    <div class="row" id="row3">
+      <div class="well col-md-8 col-md-offset-2">
+        <button type="button" class="btn btn-sm" name="button" data-toggle="collapse" data-target="#info3"><h3 id="title-3"></h3></button>
+        <p class="collapse" id="info3"></p>
+      </div>
+    </div>
+    <div class="row" id="row4">
+      <div class="well col-md-8 col-md-offset-2">
+        <button type="button" class="btn btn-sm" name="button" data-toggle="collapse" data-target="#info4"><h3 id="title-4"></h3></button>
+        <p class="collapse" id="info4"></p>
+      </div>
+    </div>
+    <div class="row" id="row5">
+      <div class="well col-md-8 col-md-offset-2">
+        <button type="button" class="btn btn-sm" name="button" data-toggle="collapse" data-target="#info5"><h3 id="title-5"></h3></button>
+        <p class="collapse" id="info5"></p>
+      </div>
+    </div>
+    <div class="row" id="row6">
+      <div class="well col-md-8 col-md-offset-2">
+        <button type="button" class="btn btn-sm" name="button" data-toggle="collapse" data-target="#info6"><h3 id="title-6"></h3></button>
+        <p class="collapse" id="info6"></p>
+      </div>
+    </div>
+    <div class="row" id="row7">
+      <div class="well col-md-8 col-md-offset-2">
+        <button type="button" class="btn btn-sm" name="button" data-toggle="collapse" data-target="#info7"><h3 id="title-7"></h3></button>
+        <p class="collapse" id="info7"></p>
+      </div>
+    </div>
+    <div class="row" id="row8">
+      <div class="well col-md-8 col-md-offset-2">
+        <button type="button" class="btn btn-sm" name="button" data-toggle="collapse" data-target="#info8"><h3 id="title-8"></h3></button>
+        <p class="collapse" id="info8"></p>
+      </div>
+    </div>
+    <div class="row" id="row9">
+      <div class="well col-md-8 col-md-offset-2">
+        <button type="button" class="btn btn-sm" name="button" data-toggle="collapse" data-target="#info9"><h3 id="title-9"></h3></button>
+        <p class="collapse" id="info9"></p>
+      </div>
+    </div>
+    <div class="row" id="row10">
+      <div class="well col-md-8 col-md-offset-2">
+        <button type="button" class="btn btn-sm" name="button" data-toggle="collapse" data-target="#info10"><h3 id="title-10"></h3></button>
+        <p class="collapse" id="info10"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
